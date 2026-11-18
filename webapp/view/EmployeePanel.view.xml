@@ -1,0 +1,57 @@
+<mvc:View
+    controllerName="nestedviews.controller.EmployeePanel"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <Panel
+        headerText="Personal Information"
+        class="sapUiResponsiveMargin"
+        width="auto">
+
+        <content>
+
+            <VBox class="sapUiSmallPadding">
+
+                <HBox alignItems="Center">
+                    <Label
+                        text="Employee ID:"
+                        width="150px"/>
+
+                    <Text text="101"/>
+                </HBox>
+
+                <HBox
+                    alignItems="Center"
+                    class="sapUiSmallMarginTop">
+
+                    <Label
+                        text="Employee Name:"
+                        width="150px"/>
+
+                    <Text text="Rahul Sharma"/>
+                </HBox>
+
+                <HBox
+                    alignItems="Center"
+                    class="sapUiSmallMarginTop">
+
+                    <Label
+                        text="Email:"
+                        width="150px"/>
+
+                    <Text text="rahul@gmail.com"/>
+                </HBox>
+
+                <Button
+                    text="Show Employee Details"
+                    type="Emphasized"
+                    class="sapUiSmallMarginTop"
+                    press=".onShowDetails"/>
+
+            </VBox>
+
+        </content>
+
+    </Panel>
+
+</mvc:View>

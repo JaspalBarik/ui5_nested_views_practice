@@ -1,0 +1,54 @@
+<mvc:View
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <Panel
+        headerText="Work Information"
+        class="sapUiResponsiveMargin"
+        width="auto">
+
+        <content>
+
+            <VBox class="sapUiSmallPadding">
+
+                <HBox alignItems="Center">
+
+                    <Label
+                        text="Department:"
+                        width="150px"/>
+
+                    <Text text="IT"/>
+
+                </HBox>
+
+                <HBox
+                    alignItems="Center"
+                    class="sapUiSmallMarginTop">
+
+                    <Label
+                        text="Designation:"
+                        width="150px"/>
+
+                    <Text text="SAPUI5 Developer"/>
+
+                </HBox>
+
+                <HBox
+                    alignItems="Center"
+                    class="sapUiSmallMarginTop">
+
+                    <Label
+                        text="Location:"
+                        width="150px"/>
+
+                    <Text text="Bhubaneswar"/>
+
+                </HBox>
+
+            </VBox>
+
+        </content>
+
+    </Panel>
+
+</mvc:View>

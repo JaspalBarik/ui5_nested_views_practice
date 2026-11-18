@@ -1,0 +1,19 @@
+<mvc:View controllerName="nestedviews.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="Employee Management">
+
+     <content>
+
+            <!-- First child view -->
+            <mvc:XMLView
+                viewName="nestedviews.view.EmployeePanel"/>
+
+            <!-- Second child view -->
+            <mvc:XMLView
+                viewName="nestedviews.view.WorkPanel"/>
+
+        </content>
+
+    </Page>
+</mvc:View>
